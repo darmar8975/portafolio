@@ -1,0 +1,86 @@
+.fondo {
+	background: #126e82;
+	color: white;
+	font-size: 16px;
+	font-family: 'Itim', cursive;
+	padding: 2%;
+}
+
+.titulo{
+	font: 28px !important;
+}
+
+.colegio {
+	text-align: right;
+	font-weight: bolder;
+}
+
+.circulo {
+	border: 5px solid black;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-top: 10%;
+
+	background: url("../resources/Foto.PNG")no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background: cover;
+}
+
+.foto {
+	border-radius: 60%;
+	width: 216px;
+	height: 216px;
+}
+
+.espaciado {
+	padding-top: 5%;
+}
+
+.centrar {
+	text-align: center;
+}
+
+.espaciadoNombre {
+	padding-top: 1%;
+	margin-bottom: 0;
+}
+
+.rectangulo {
+	width: 100%;
+	height: 200px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#r1 {
+	background: #caf7e3;
+}
+
+#r2 {
+	background: #d8e3e7;
+}
+
+.letra{
+	font-family: 'Itim', cursive;
+	font-size: 24px;
+}
+
+.cvh {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cvh:hover {
+	cursor: pointer;
+	font-size: 32px;
+	font-weight: bolder;
+}	
+
+.linea {
+	text-decoration: none;
+}
